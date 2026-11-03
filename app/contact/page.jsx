@@ -63,8 +63,8 @@ export default function Page() {
                   <i aria-hidden="true">↓</i>
                 </a>
                 <div className="contact-card contact-qr">
-                  <img src={asset("/images/qr-code.png")} alt="KhushiCargo QR code" width="96" height="102" />
-                  <span><small>Scan to connect</small><strong>Point your phone camera at the QR code</strong></span>
+                  <img src={asset("/images/qr-code.png")} alt="QR code for the KhushiCargo office location" width="96" height="102" />
+                  <span><small>Scan the location</small><strong>Find your direction</strong></span>
                 </div>
               </div>
             </div>

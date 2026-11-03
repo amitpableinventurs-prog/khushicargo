@@ -88,8 +88,8 @@ export function SiteFooter() {
           </Link>
           <p>Making the journey to your next chapter feel a little easier, one careful move at a time.</p>
           <div className="footer-qr">
-            <img src={asset("/images/qr-code.png")} alt="KhushiCargo QR code" width="84" height="89" />
-            <span>Scan to<br />connect with us</span>
+            <img src={asset("/images/qr-code.png")} alt="QR code for the KhushiCargo office location" width="84" height="89" />
+            <span>Scan the location<br />Find your direction</span>
           </div>
         </div>
         <div className="footer-column">
