@@ -3,6 +3,7 @@ import { PageHero } from "../components/PageSections";
 import QuoteForm from "../components/QuoteForm";
 import { SiteFooter, SiteHeader } from "../components/SiteChrome";
 import { phones } from "../contact-info";
+import { asset } from "../asset-path";
 
 const address = "Plot No. 29 EA, Scheme No. 94, Indore, Madhya Pradesh 452010";
 const mapQuery = encodeURIComponent(address);
@@ -61,6 +62,10 @@ export default function Page() {
                   <span><small>Service area</small><strong>6 states &amp; All India</strong></span>
                   <i aria-hidden="true">↓</i>
                 </a>
+                <div className="contact-card contact-qr">
+                  <img src={asset("/images/qr-code.png")} alt="KhushiCargo QR code" width="96" height="102" />
+                  <span><small>Scan to connect</small><strong>Point your phone camera at the QR code</strong></span>
+                </div>
               </div>
             </div>
             <QuoteForm />
