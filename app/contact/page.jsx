@@ -2,7 +2,7 @@ import Link from "next/link";
 import { PageHero } from "../components/PageSections";
 import QuoteForm from "../components/QuoteForm";
 import { SiteFooter, SiteHeader } from "../components/SiteChrome";
-import { phones } from "../contact-info";
+import { email, phones } from "../contact-info";
 import { asset } from "../asset-path";
 
 const address = "Plot No. 29 EA, Scheme No. 94, Indore, Madhya Pradesh 452010";
@@ -39,7 +39,7 @@ export default function Page() {
             <div className="contact-info">
               <div className="eyebrow"><span /> Reach us directly</div>
               <h2>We’re just a<br /><em>call away.</em></h2>
-              <p>Prefer to talk it through? Call us, visit our Indore office, or send your move details using the form.</p>
+              <p>Prefer to talk it through? Call or email us, visit our Indore office, or send your move details using the form.</p>
               <div className="contact-cards">
                 <div className="contact-card contact-phones">
                   <span className="contact-icon" aria-hidden="true">☎</span>
@@ -52,6 +52,11 @@ export default function Page() {
                     ))}
                   </span>
                 </div>
+                <a className="contact-card" href={`mailto:${email}`}>
+                  <span className="contact-icon" aria-hidden="true">✉</span>
+                  <span><small>Email us</small><strong>{email}</strong></span>
+                  <i aria-hidden="true">↗</i>
+                </a>
                 <a className="contact-card" href={`https://www.google.com/maps/search/?api=1&query=${mapQuery}`} target="_blank" rel="noopener noreferrer">
                   <span className="contact-icon" aria-hidden="true">⌂</span>
                   <span><small>Visit our office</small><strong>Plot No. 29 EA, Scheme No. 94<br />Indore, Madhya Pradesh 452010</strong></span>

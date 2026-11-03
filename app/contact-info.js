@@ -5,5 +5,7 @@ export const phones = [
 
 export const mainPhone = phones[0];
 
+export const email = "khushicargo0786@gmail.com";
+
 // Floating WhatsApp button shown on every page.
 export const whatsappUrl = "https://wa.me/916262745451";

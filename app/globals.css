@@ -328,7 +328,7 @@ button.region-toggle:hover .region-name strong { color: var(--orange); }
 .contact-icon { display: grid; flex-shrink: 0; width: 46px; height: 46px; place-items: center; border-radius: 50%; color: #fff; background: var(--orange); font-size: 18px; }
 .contact-card > span:nth-child(2) { display: flex; flex: 1; flex-direction: column; gap: 4px; }
 .contact-card small { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.contact-card strong { font-family: var(--font-display); font-size: 16px; letter-spacing: -.02em; line-height: 1.45; }
+.contact-card strong { font-family: var(--font-display); font-size: 16px; letter-spacing: -.02em; line-height: 1.45; overflow-wrap: anywhere; }
 .contact-card i { color: var(--orange); font-size: 18px; font-style: normal; }
 .contact-qr img { flex-shrink: 0; border-radius: 6px; }
 .contact-qr:hover { border-color: var(--line); box-shadow: none; transform: none; }
